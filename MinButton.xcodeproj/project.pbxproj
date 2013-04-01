@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A9CE78D1599BAF600EB69C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9CE78C1599BAF600EB69C2 /* UIKit.framework */; };
+		1A9CE78F1599BAF600EB69C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9CE78E1599BAF600EB69C2 /* Foundation.framework */; };
+		1A9CE7911599BAF600EB69C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9CE7901599BAF600EB69C2 /* CoreGraphics.framework */; };
+		1A9CE7971599BAF600EB69C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A9CE7951599BAF600EB69C2 /* InfoPlist.strings */; };
+		1A9CE7991599BAF600EB69C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CE7981599BAF600EB69C2 /* main.m */; };
+		1A9CE79D1599BAF600EB69C2 /* MinButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CE79C1599BAF600EB69C2 /* MinButtonAppDelegate.m */; };
+		1A9CE7A01599BAF600EB69C2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9CE79E1599BAF600EB69C2 /* MainStoryboard_iPhone.storyboard */; };
+		1A9CE7A61599BAF600EB69C2 /* MinButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CE7A51599BAF600EB69C2 /* MinButtonViewController.m */; };
+		1A9CE7BE159C0DAD00EB69C2 /* Message-List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A9CE7BD159C0DAD00EB69C2 /* Message-List.plist */; };
+		1A9CE7C0159D2C8F00EB69C2 /* green_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9CE7BF159D2C8E00EB69C2 /* green_button.png */; };
+		1A9CE7C2159D2CA400EB69C2 /* red_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9CE7C1159D2CA400EB69C2 /* red_button.png */; };
+		1A9CE7C8159DC33E00EB69C2 /* track.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A9CE7C7159DC33D00EB69C2 /* track.m4a */; };
+		1A9CE7CA159DCA9400EB69C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9CE7C9159DCA9400EB69C2 /* AVFoundation.framework */; };
+		1AA9D5EE15ABF3B100AC1E50 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AA9D5ED15ABF3B100AC1E50 /* iTunesArtwork.png */; };
+		1AA9D5F315AC120400AC1E50 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AA9D5F215AC120400AC1E50 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A9CE7881599BAF600EB69C2 /* MinButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9CE78C1599BAF600EB69C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A9CE78E1599BAF600EB69C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A9CE7901599BAF600EB69C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A9CE7941599BAF600EB69C2 /* MinButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinButton-Info.plist"; sourceTree = "<group>"; };
+		1A9CE7961599BAF600EB69C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A9CE7981599BAF600EB69C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A9CE79A1599BAF600EB69C2 /* MinButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinButton-Prefix.pch"; sourceTree = "<group>"; };
+		1A9CE79B1599BAF600EB69C2 /* MinButtonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinButtonAppDelegate.h; sourceTree = "<group>"; };
+		1A9CE79C1599BAF600EB69C2 /* MinButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinButtonAppDelegate.m; sourceTree = "<group>"; };
+		1A9CE79F1599BAF600EB69C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1A9CE7A41599BAF600EB69C2 /* MinButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinButtonViewController.h; sourceTree = "<group>"; };
+		1A9CE7A51599BAF600EB69C2 /* MinButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinButtonViewController.m; sourceTree = "<group>"; };
+		1A9CE7BD159C0DAD00EB69C2 /* Message-List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Message-List.plist"; sourceTree = "<group>"; };
+		1A9CE7BF159D2C8E00EB69C2 /* green_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_button.png; sourceTree = "<group>"; };
+		1A9CE7C1159D2CA400EB69C2 /* red_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_button.png; sourceTree = "<group>"; };
+		1A9CE7C7159DC33D00EB69C2 /* track.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = track.m4a; sourceTree = "<group>"; };
+		1A9CE7C9159DCA9400EB69C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1AA9D5ED15ABF3B100AC1E50 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		1AA9D5F215AC120400AC1E50 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1ACE303D15A18EAC0081577B /* MinButton copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MinButton copy-Info.plist"; path = "/Users/masaki_naka/Documents/MinButton/MinButton copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A9CE7851599BAF600EB69C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9CE7CA159DCA9400EB69C2 /* AVFoundation.framework in Frameworks */,
+				1A9CE78D1599BAF600EB69C2 /* UIKit.framework in Frameworks */,
+				1A9CE78F1599BAF600EB69C2 /* Foundation.framework in Frameworks */,
+				1A9CE7911599BAF600EB69C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A9CE77D1599BAF600EB69C2 = {
+			isa = PBXGroup;
+			children = (
+				1A9CE7921599BAF600EB69C2 /* MinButton */,
+				1A9CE78B1599BAF600EB69C2 /* Frameworks */,
+				1A9CE7891599BAF600EB69C2 /* Products */,
+				1ACE303D15A18EAC0081577B /* MinButton copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		1A9CE7891599BAF600EB69C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A9CE7881599BAF600EB69C2 /* MinButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9CE78B1599BAF600EB69C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A9CE7C9159DCA9400EB69C2 /* AVFoundation.framework */,
+				1A9CE78C1599BAF600EB69C2 /* UIKit.framework */,
+				1A9CE78E1599BAF600EB69C2 /* Foundation.framework */,
+				1A9CE7901599BAF600EB69C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A9CE7921599BAF600EB69C2 /* MinButton */ = {
+			isa = PBXGroup;
+			children = (
+				1A9CE79B1599BAF600EB69C2 /* MinButtonAppDelegate.h */,
+				1A9CE79C1599BAF600EB69C2 /* MinButtonAppDelegate.m */,
+				1A9CE79E1599BAF600EB69C2 /* MainStoryboard_iPhone.storyboard */,
+				1A9CE7A41599BAF600EB69C2 /* MinButtonViewController.h */,
+				1A9CE7A51599BAF600EB69C2 /* MinButtonViewController.m */,
+				1A9CE7931599BAF600EB69C2 /* Supporting Files */,
+			);
+			path = MinButton;
+			sourceTree = "<group>";
+		};
+		1A9CE7931599BAF600EB69C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA9D5ED15ABF3B100AC1E50 /* iTunesArtwork.png */,
+				1AA9D5F215AC120400AC1E50 /* icon.png */,
+				1A9CE7C7159DC33D00EB69C2 /* track.m4a */,
+				1A9CE7BF159D2C8E00EB69C2 /* green_button.png */,
+				1A9CE7C1159D2CA400EB69C2 /* red_button.png */,
+				1A9CE7BD159C0DAD00EB69C2 /* Message-List.plist */,
+				1A9CE7941599BAF600EB69C2 /* MinButton-Info.plist */,
+				1A9CE7951599BAF600EB69C2 /* InfoPlist.strings */,
+				1A9CE7981599BAF600EB69C2 /* main.m */,
+				1A9CE79A1599BAF600EB69C2 /* MinButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A9CE7871599BAF600EB69C2 /* MinButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9CE7A91599BAF600EB69C2 /* Build configuration list for PBXNativeTarget "MinButton" */;
+			buildPhases = (
+				1A9CE7841599BAF600EB69C2 /* Sources */,
+				1A9CE7851599BAF600EB69C2 /* Frameworks */,
+				1A9CE7861599BAF600EB69C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinButton;
+			productName = MinButton;
+			productReference = 1A9CE7881599BAF600EB69C2 /* MinButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A9CE77F1599BAF600EB69C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MinButton;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1A9CE7821599BAF600EB69C2 /* Build configuration list for PBXProject "MinButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A9CE77D1599BAF600EB69C2;
+			productRefGroup = 1A9CE7891599BAF600EB69C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A9CE7871599BAF600EB69C2 /* MinButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A9CE7861599BAF600EB69C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9CE7971599BAF600EB69C2 /* InfoPlist.strings in Resources */,
+				1A9CE7A01599BAF600EB69C2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				1A9CE7BE159C0DAD00EB69C2 /* Message-List.plist in Resources */,
+				1A9CE7C0159D2C8F00EB69C2 /* green_button.png in Resources */,
+				1A9CE7C2159D2CA400EB69C2 /* red_button.png in Resources */,
+				1A9CE7C8159DC33E00EB69C2 /* track.m4a in Resources */,
+				1AA9D5EE15ABF3B100AC1E50 /* iTunesArtwork.png in Resources */,
+				1AA9D5F315AC120400AC1E50 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A9CE7841599BAF600EB69C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9CE7991599BAF600EB69C2 /* main.m in Sources */,
+				1A9CE79D1599BAF600EB69C2 /* MinButtonAppDelegate.m in Sources */,
+				1A9CE7A61599BAF600EB69C2 /* MinButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A9CE7951599BAF600EB69C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9CE7961599BAF600EB69C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A9CE79E1599BAF600EB69C2 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9CE79F1599BAF600EB69C2 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A9CE7A71599BAF600EB69C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A9CE7A81599BAF600EB69C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Masaki Nakanishi";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8A6838C1-D36E-4750-B780-ECE187A6F898";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A9CE7AA1599BAF600EB69C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Masaki Nakanishi (LA435DPDGX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinButton/MinButton-Prefix.pch";
+				INFOPLIST_FILE = "MinButton/MinButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3A599CAD-2150-4841-AF25-89A188DE8399";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A9CE7AB1599BAF600EB69C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinButton/MinButton-Prefix.pch";
+				INFOPLIST_FILE = "MinButton/MinButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A9CE7821599BAF600EB69C2 /* Build configuration list for PBXProject "MinButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9CE7A71599BAF600EB69C2 /* Debug */,
+				1A9CE7A81599BAF600EB69C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9CE7A91599BAF600EB69C2 /* Build configuration list for PBXNativeTarget "MinButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9CE7AA1599BAF600EB69C2 /* Debug */,
+				1A9CE7AB1599BAF600EB69C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A9CE77F1599BAF600EB69C2 /* Project object */;
+}

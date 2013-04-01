@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Result label</key>
+	<array>
+		<string>あれ？ずるしてない？</string>
+		<string>クレイジー！</string>
+		<string>革新的！</string>
+		<string>スゴすぎ！</string>
+		<string>ヤバい！</string>
+		<string>パーティーだ！</string>
+		<string>やった！</string>
+		<string>ヤバいぜ！</string>
+		<string>ワオ！</string>
+		<string>超興奮！</string>
+		<string>最高！</string>
+		<string>やるな！</string>
+		<string>すご技！</string>
+	</array>
+</dict>
+</plist>
